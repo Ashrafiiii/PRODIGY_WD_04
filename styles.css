@@ -11,11 +11,10 @@ body {
   }
   
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #f6e6f7; /* Soft pink or mauve tone */
+    color: #333; /* Text color for contrast */
     padding: 20px 0;
   }
-  
   header nav ul {
     list-style: none;
     padding: 0;
@@ -28,18 +27,19 @@ body {
   }
   
   header nav ul li a {
-    color: #fff;
+    color: #8a4d76; /* Darker shade of pink or mauve */
     text-decoration: none;
   }
   
   .hero {
     text-align: center;
     padding: 100px 0;
+    color: #8a4d76; /* Darker shade of pink or mauve */
   }
-  
   .about {
     text-align: center;
     padding: 50px 0;
+    background-color: #f6e6f7; /* Soft pink or mauve tone */
   }
   
   .about img {
@@ -48,4 +48,9 @@ body {
     margin-top: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   }
-  
+  .project {
+    background-color: #f6e6f7; /* Soft pink or mauve tone */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
